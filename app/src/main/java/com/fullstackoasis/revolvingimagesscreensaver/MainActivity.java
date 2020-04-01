@@ -12,7 +12,7 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     private static String TAG = MainActivity.class.getCanonicalName();
-    private static int TIMEOUT = 3;
+    private static int TIMEOUT = 7;
     private Handler waitHandler;
     private ImageTracker imageTracker = new ImageTracker();
     private static int IMAGE_NUM = 0;
