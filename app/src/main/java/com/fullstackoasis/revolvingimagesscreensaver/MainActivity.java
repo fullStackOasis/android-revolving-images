@@ -1,9 +1,6 @@
 package com.fullstackoasis.revolvingimagesscreensaver;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.drawerlayout.widget.DrawerLayout;
-
-import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
@@ -28,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ImageView iv = this.findViewById(R.id.imageView);
         setTimer();
+        Log.d(TAG, "Finished with onCreate method");
     }
 
     /**
@@ -39,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         stopped = false;
+        ImageView iv = this.findViewById(R.id.imageView);
         Log.d(TAG, "Finished with onStart method");
     }
 
