@@ -8,4 +8,4 @@ The first image is displayed when the app starts. Then after a delay of 3 second
 
 After making minor changes to resize images so they fill the screen:
 
-![Android ImageView with 4 revolving images filling screen](https://fullstackoasis.com/images/demo-revolving-images-screensaver-v2.gif)
+![Android ImageView with 4 revolving images filling screen](https://raw.githubusercontent.com/fullStackOasis/android-revolving-images/master/demo-revolving-images-screensaver-v2.gif)
